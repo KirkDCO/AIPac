@@ -1,0 +1,14 @@
+101,"MapModel::GetPosition","Tile coordinates out of bounds."
+102,"MapModel::LoadMap","Error opening map file."
+103,"MapModel::LoadMap","Error parsing map file."
+104,"MapModel::CountTilesOfType","Improper rectangle definition."
+105,"MapModel::CountTilesOfType","Rectangle coordinates out of bounds."
+
+201,"SpriteModel::SetPosition","Target position out of bounds."
+
+301,"MapView::SetBitmap","Unable to load bitmap."
+
+401,"BitmapLoader::LoadBitmap","Unable to load bitmap."
+402,"BitmapLoader::GetBitmapHeight","Bitmap not loaded."
+403,"BitmapLoader::GetBitmapWidth","Bitmap not loaded."
+

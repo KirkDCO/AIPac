@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PMAI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output=".\PMAI.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="C:\Temp\PMAI\Debug\PMAI.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-fexceptions" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Brain_Keyboard.cpp" />
+		<Unit filename="Brain_Keyboard.h" />
+		<Unit filename="Brain_RandomGhost.cpp" />
+		<Unit filename="Brain_RandomGhost.h" />
+		<Unit filename=".\Enumerations.h" />
+		<Unit filename="IBrain.h" />
+		<Unit filename=".\MapController.cpp" />
+		<Unit filename=".\MapController.h" />
+		<Unit filename=".\MapModel.cpp" />
+		<Unit filename=".\MapModel.h" />
+		<Unit filename=".\MapView.cpp" />
+		<Unit filename=".\MapView.h" />
+		<Unit filename="NEAT\CController.cpp" />
+		<Unit filename="NEAT\CController.h" />
+		<Unit filename="NEAT\CInnovation.cpp" />
+		<Unit filename="NEAT\CInnovation.h" />
+		<Unit filename="NEAT\CParams.cpp" />
+		<Unit filename="NEAT\CParams.h" />
+		<Unit filename="NEAT\CSpecies.cpp" />
+		<Unit filename="NEAT\CSpecies.h" />
+		<Unit filename="NEAT\Cga.cpp" />
+		<Unit filename="NEAT\Cga.h" />
+		<Unit filename="NEAT\PacNEATBrain.cpp" />
+		<Unit filename="NEAT\PacNEATBrain.h" />
+		<Unit filename="NEAT\collision.h" />
+		<Unit filename="NEAT\genes.h" />
+		<Unit filename="NEAT\genotype.cpp" />
+		<Unit filename="NEAT\genotype.h" />
+		<Unit filename="NEAT\phenotype.cpp" />
+		<Unit filename="NEAT\phenotype.h" />
+		<Unit filename="NEAT\utils.cpp" />
+		<Unit filename="NEAT\utils.h" />
+		<Unit filename=".\PMAI.cpp" />
+		<Unit filename=".\SpriteController.cpp" />
+		<Unit filename=".\SpriteController.h" />
+		<Unit filename=".\SpriteModel.cpp" />
+		<Unit filename=".\SpriteModel.h" />
+		<Unit filename=".\SpriteView.cpp" />
+		<Unit filename=".\SpriteView.h" />
+		<Unit filename=".\Utilities\BitmapLoader.cpp" />
+		<Unit filename=".\Utilities\BitmapLoader.h" />
+		<Unit filename=".\Utilities\CTimer.cpp" />
+		<Unit filename=".\Utilities\CTimer.h" />
+		<Unit filename=".\Utilities\ExceptionRKD.cpp" />
+		<Unit filename=".\Utilities\ExceptionRKD.h" />
+		<Unit filename=".\Utilities\ParameterMap.cpp" />
+		<Unit filename=".\Utilities\ParameterMap.h" />
+		<Unit filename=".\WorldController.cpp" />
+		<Unit filename=".\WorldController.h" />
+		<Unit filename=".\WorldModel.cpp" />
+		<Unit filename=".\WorldModel.h" />
+		<Unit filename=".\WorldView.cpp" />
+		<Unit filename=".\WorldView.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

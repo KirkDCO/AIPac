@@ -1,0 +1,3186 @@
+# depslib dependency file v1.0
+1293931362 source:c:\data\aipac_code_015\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1293931361 c:\data\aipac_code_015\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1293931361 c:\data\aipac_code_015\ibrain.h
+	"Enumerations.h"
+
+1293953786 c:\data\aipac_code_015\enumerations.h
+
+1293931361 source:c:\data\aipac_code_015\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1293931361 c:\data\aipac_code_015\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1293931361 c:\data\aipac_code_015\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1293931361 c:\data\aipac_code_015\spritemodel.h
+	"Enumerations.h"
+
+1293932983 c:\data\aipac_code_015\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1293956117 c:\data\aipac_code_015\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1293931361 c:\data\aipac_code_015\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1293931361 c:\data\aipac_code_015\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1293931361 c:\data\aipac_code_015\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1293954824 c:\data\aipac_code_015\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1293931361 c:\data\aipac_code_015\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1293931362 c:\data\aipac_code_015\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1293932576 c:\data\aipac_code_015\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1293954824 source:c:\data\aipac_code_015\mapcontroller.cpp
+	"MapController.h"
+
+1293931361 source:c:\data\aipac_code_015\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1293931361 source:c:\data\aipac_code_015\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1293931362 c:\data\aipac_code_015\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294029099 source:c:\data\aipac_code_015\neat\ccontroller.cpp
+	"CController.h"
+
+1293931361 c:\data\aipac_code_015\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1293931362 c:\data\aipac_code_015\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1293931362 c:\data\aipac_code_015\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1293932576 c:\data\aipac_code_015\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1293931362 c:\data\aipac_code_015\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1293931361 c:\data\aipac_code_015\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1293931362 c:\data\aipac_code_015\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1293931362 c:\data\aipac_code_015\neat\genes.h
+
+1293931362 c:\data\aipac_code_015\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1293931362 c:\data\aipac_code_015\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1293931362 c:\data\aipac_code_015\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1293931362 c:\data\aipac_code_015\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1293931362 c:\data\aipac_code_015\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1293931361 source:c:\data\aipac_code_015\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1293931362 source:c:\data\aipac_code_015\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1293931362 source:c:\data\aipac_code_015\neat\cspecies.cpp
+	"CSpecies.h"
+
+1293931361 source:c:\data\aipac_code_015\neat\cga.cpp
+	"Cga.h"
+
+1293955011 source:c:\data\aipac_code_015\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1293931362 source:c:\data\aipac_code_015\neat\genotype.cpp
+	"genotype.h"
+
+1293931362 source:c:\data\aipac_code_015\neat\phenotype.cpp
+	"phenotype.h"
+
+1293931362 source:c:\data\aipac_code_015\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294029912 source:c:\data\aipac_code_015\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1293931362 c:\data\aipac_code_015\utilities\ctimer.h
+	<windows.h>
+
+1293932576 c:\data\aipac_code_015\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1293931362 c:\data\aipac_code_015\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1293931361 source:c:\data\aipac_code_015\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1293933022 source:c:\data\aipac_code_015\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1293931361 source:c:\data\aipac_code_015\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1293931362 source:c:\data\aipac_code_015\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1293931362 c:\data\aipac_code_015\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1293931362 source:c:\data\aipac_code_015\utilities\ctimer.cpp
+	"CTimer.h"
+
+1293931362 source:c:\data\aipac_code_015\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1293931362 source:c:\data\aipac_code_015\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294028575 source:c:\data\aipac_code_015\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1293931361 source:c:\data\aipac_code_015\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1293931361 source:c:\data\aipac_code_015\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294068194 source:e:\aipac\aipac_code_015\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294068194 e:\aipac\aipac_code_015\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294068194 e:\aipac\aipac_code_015\ibrain.h
+	"Enumerations.h"
+
+1294068194 e:\aipac\aipac_code_015\enumerations.h
+
+1294068194 source:e:\aipac\aipac_code_015\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294068194 e:\aipac\aipac_code_015\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294068196 e:\aipac\aipac_code_015\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294068196 e:\aipac\aipac_code_015\spritemodel.h
+	"Enumerations.h"
+
+1294068196 e:\aipac\aipac_code_015\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294068198 e:\aipac\aipac_code_015\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294068198 e:\aipac\aipac_code_015\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294068194 e:\aipac\aipac_code_015\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294068198 e:\aipac\aipac_code_015\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294068194 e:\aipac\aipac_code_015\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294068196 e:\aipac\aipac_code_015\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294068200 e:\aipac\aipac_code_015\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294068200 e:\aipac\aipac_code_015\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294068194 source:e:\aipac\aipac_code_015\mapcontroller.cpp
+	"MapController.h"
+
+1294068194 source:e:\aipac\aipac_code_015\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294068196 source:e:\aipac\aipac_code_015\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294068198 e:\aipac\aipac_code_015\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294103276 source:e:\aipac\aipac_code_015\neat\ccontroller.cpp
+	"CController.h"
+
+1294068208 e:\aipac\aipac_code_015\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294068216 e:\aipac\aipac_code_015\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1294068212 e:\aipac\aipac_code_015\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294068200 e:\aipac\aipac_code_015\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294068200 e:\aipac\aipac_code_015\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294068210 e:\aipac\aipac_code_015\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294068216 e:\aipac\aipac_code_015\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294068214 e:\aipac\aipac_code_015\neat\genes.h
+
+1293931362 e:\aipac\aipac_code_015\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294068210 e:\aipac\aipac_code_015\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294068212 e:\aipac\aipac_code_015\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294068214 e:\aipac\aipac_code_015\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294068212 e:\aipac\aipac_code_015\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294068210 source:e:\aipac\aipac_code_015\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294068212 source:e:\aipac\aipac_code_015\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294068212 source:e:\aipac\aipac_code_015\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294068210 source:e:\aipac\aipac_code_015\neat\cga.cpp
+	"Cga.h"
+
+1294068214 source:e:\aipac\aipac_code_015\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294068214 source:e:\aipac\aipac_code_015\neat\genotype.cpp
+	"genotype.h"
+
+1294068216 source:e:\aipac\aipac_code_015\neat\phenotype.cpp
+	"phenotype.h"
+
+1294068216 source:e:\aipac\aipac_code_015\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294068196 source:e:\aipac\aipac_code_015\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294068200 e:\aipac\aipac_code_015\utilities\ctimer.h
+	<windows.h>
+
+1294068200 e:\aipac\aipac_code_015\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294068200 e:\aipac\aipac_code_015\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294068196 source:e:\aipac\aipac_code_015\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294068196 source:e:\aipac\aipac_code_015\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1294068196 source:e:\aipac\aipac_code_015\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294068198 source:e:\aipac\aipac_code_015\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294068198 e:\aipac\aipac_code_015\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294068200 source:e:\aipac\aipac_code_015\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294068200 source:e:\aipac\aipac_code_015\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294068200 source:e:\aipac\aipac_code_015\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294068196 source:e:\aipac\aipac_code_015\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294068198 source:e:\aipac\aipac_code_015\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294068198 source:e:\aipac\aipac_code_015\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294068194 source:e:\aipac\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294068194 e:\aipac\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294068194 e:\aipac\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1294068194 e:\aipac\aipac_code_016\enumerations.h
+
+1294068194 source:e:\aipac\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294068194 e:\aipac\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294068196 e:\aipac\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294068196 e:\aipac\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1294068196 e:\aipac\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294068198 e:\aipac\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294068198 e:\aipac\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294068194 e:\aipac\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294068198 e:\aipac\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294068194 e:\aipac\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294068196 e:\aipac\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294068200 e:\aipac\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294068200 e:\aipac\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294068194 source:e:\aipac\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1294068194 source:e:\aipac\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294068196 source:e:\aipac\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294068198 e:\aipac\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294068210 source:e:\aipac\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294068210 e:\aipac\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294068216 e:\aipac\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1293931362 e:\aipac\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294068216 e:\aipac\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294068212 e:\aipac\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294068200 e:\aipac\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294068200 e:\aipac\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294068214 e:\aipac\aipac_code_016\neat\genes.h
+
+1294068212 source:e:\aipac\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294183910 source:e:\aipac\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294068212 e:\aipac\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294192364 source:e:\aipac\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1294068210 e:\aipac\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294190388 source:e:\aipac\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294068214 e:\aipac\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294068212 e:\aipac\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294192590 source:e:\aipac\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1294068216 source:e:\aipac\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1294068216 source:e:\aipac\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294068196 source:e:\aipac\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294068208 e:\aipac\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294068200 e:\aipac\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1294068200 e:\aipac\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294068200 e:\aipac\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294068196 source:e:\aipac\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294068196 source:e:\aipac\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1294068196 source:e:\aipac\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294068198 source:e:\aipac\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294068198 e:\aipac\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294068200 source:e:\aipac\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294068200 source:e:\aipac\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294068200 source:e:\aipac\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294068196 source:e:\aipac\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294068198 source:e:\aipac\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294068198 source:e:\aipac\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294193334 source:e:\aipac\aipac_code_016\neat\ccontroller.cpp
+	"CController.h"
+
+1294200214 source:z:\aipac\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294200214 z:\aipac\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294200214 z:\aipac\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1294200214 z:\aipac\aipac_code_016\enumerations.h
+
+1294200214 source:z:\aipac\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294200214 z:\aipac\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294200214 z:\aipac\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294200214 z:\aipac\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1294200214 z:\aipac\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294200214 z:\aipac\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294200214 z:\aipac\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294200214 z:\aipac\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294200214 z:\aipac\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294200214 z:\aipac\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294200214 z:\aipac\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294200214 z:\aipac\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294200214 z:\aipac\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294200214 source:z:\aipac\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1294200214 source:z:\aipac\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294200214 source:z:\aipac\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294200214 z:\aipac\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294203915 source:z:\aipac\aipac_code_016\neat\ccontroller.cpp
+	"CController.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1294200214 z:\aipac\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294200214 z:\aipac\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294200214 z:\aipac\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294200214 z:\aipac\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\genes.h
+
+1294200214 z:\aipac\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294200214 z:\aipac\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294200214 source:z:\aipac\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1294200214 source:z:\aipac\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294200214 source:z:\aipac\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294200214 z:\aipac\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1294200214 z:\aipac\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294200214 z:\aipac\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294200214 source:z:\aipac\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294200214 source:z:\aipac\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1294200214 source:z:\aipac\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294200214 source:z:\aipac\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294200214 z:\aipac\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294200214 source:z:\aipac\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294200214 source:z:\aipac\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294200214 source:z:\aipac\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294200214 source:z:\aipac\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294200214 source:z:\aipac\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294200214 source:z:\aipac\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294784816 source:e:\aipac_20110104\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294784826 e:\aipac_20110104\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294791122 e:\aipac_20110104\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\enumerations.h
+
+1294784800 source:e:\aipac_20110104\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294784810 e:\aipac_20110104\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294791126 e:\aipac_20110104\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294791130 e:\aipac_20110104\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294377146 e:\aipac_20110104\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294794264 source:e:\aipac_20110104\aipac_code_016\neat\ccontroller.cpp
+	"CController.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\genes.h
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294784852 e:\aipac_20110104\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294793068 source:e:\aipac_20110104\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1294794230 source:e:\aipac_20110104\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294793622 source:e:\aipac_20110104\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294785768 source:e:\aipac_20110104\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294377146 e:\aipac_20110104\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294792088 source:e:\aipac_20110104\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294377146 source:e:\aipac_20110104\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294376158 z:\aipac_20110104\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\enumerations.h
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294376158 z:\aipac_20110104\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294376158 z:\aipac_20110104\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\genes.h
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294376158 z:\aipac_20110104\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294376158 z:\aipac_20110104\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294376158 source:z:\aipac_20110104\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294802829 z:\aipac_20110111\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\enumerations.h
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294802829 z:\aipac_20110111\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294802829 z:\aipac_20110111\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\genes.h
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294804144 z:\aipac_20110111\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294802829 z:\aipac_20110111\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294802829 source:z:\aipac_20110111\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294804143 source:z:\aipac_20110111\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294804144 source:z:\aipac_20110111\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294804144 source:z:\aipac_20110111\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1294804144 source:z:\aipac_20110111\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1294804143 source:z:\aipac_20110111\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1294804590 source:z:\aipac_20110111\aipac_code_016\neat\ccontroller.cpp
+	"CController.h"
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1294808404 e:\aipac_20110111\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\enumerations.h
+
+1294864882 e:\aipac_20110111\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1294864864 e:\aipac_20110111\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1294808404 e:\aipac_20110111\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294868268 source:e:\aipac_20110111\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1294808404 source:e:\aipac_20110111\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1294868136 source:e:\aipac_20110111\aipac_code_016\neat\ccontroller.cpp
+	"CController.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1294808404 e:\aipac_20110111\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\genes.h
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1294808406 e:\aipac_20110111\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1294868268 source:e:\aipac_20110111\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1294868384 source:e:\aipac_20110111\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1294808406 source:e:\aipac_20110111\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1294868268 source:e:\aipac_20110111\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1294868268 source:e:\aipac_20110111\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+	<fstream>
+
+1490202451 source:c:\temp\aipac_code_016\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1490202451 c:\temp\aipac_code_016\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1490202451 c:\temp\aipac_code_016\ibrain.h
+	"Enumerations.h"
+
+1490202451 c:\temp\aipac_code_016\enumerations.h
+
+1490202451 source:c:\temp\aipac_code_016\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1490202451 c:\temp\aipac_code_016\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1490202451 c:\temp\aipac_code_016\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1490202451 c:\temp\aipac_code_016\spritemodel.h
+	"Enumerations.h"
+
+1490202451 c:\temp\aipac_code_016\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1490202451 c:\temp\aipac_code_016\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1490202451 c:\temp\aipac_code_016\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1490202451 c:\temp\aipac_code_016\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1490202451 c:\temp\aipac_code_016\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1490202451 c:\temp\aipac_code_016\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1490202451 c:\temp\aipac_code_016\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1490202451 c:\temp\aipac_code_016\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490202451 c:\temp\aipac_code_016\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490202451 source:c:\temp\aipac_code_016\mapcontroller.cpp
+	"MapController.h"
+
+1490202451 source:c:\temp\aipac_code_016\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1490202451 source:c:\temp\aipac_code_016\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1490202451 c:\temp\aipac_code_016\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1490394023 source:c:\temp\aipac_code_016\neat\cga.cpp
+	"Cga.h"
+
+1490394188 c:\temp\aipac_code_016\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1490397031 c:\temp\aipac_code_016\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1490202451 c:\temp\aipac_code_016\neat\utils.h
+	<stdlib.h>
+	<math.h>
+	<sstream>
+	<string>
+	<iostream>
+	<vector>
+
+1490202451 c:\temp\aipac_code_016\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1490202451 c:\temp\aipac_code_016\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490202451 c:\temp\aipac_code_016\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490202451 c:\temp\aipac_code_016\neat\genes.h
+
+1490393965 c:\temp\aipac_code_016\neat\genotype.h
+	<vector>
+	"phenotype.h"
+	"utils.h"
+	"CInnovation.h"
+	"Genes.h"
+
+1490202451 c:\temp\aipac_code_016\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1490202451 c:\temp\aipac_code_016\neat\cspecies.h
+	<vector>
+	<math.h>
+	<iomanip>
+	<iostream>
+	"genotype.h"
+
+1490202451 source:c:\temp\aipac_code_016\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1490202451 source:c:\temp\aipac_code_016\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1490202451 source:c:\temp\aipac_code_016\neat\cspecies.cpp
+	"CSpecies.h"
+
+1490396870 source:c:\temp\aipac_code_016\neat\genotype.cpp
+	"genotype.h"
+
+1490396895 source:c:\temp\aipac_code_016\neat\phenotype.cpp
+	"phenotype.h"
+
+1490202451 source:c:\temp\aipac_code_016\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1490202451 source:c:\temp\aipac_code_016\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1490393883 c:\temp\aipac_code_016\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1490393763 c:\temp\aipac_code_016\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1490202451 c:\temp\aipac_code_016\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1490202451 c:\temp\aipac_code_016\utilities\ctimer.h
+	<windows.h>
+
+1490202451 c:\temp\aipac_code_016\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490202451 c:\temp\aipac_code_016\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490202451 source:c:\temp\aipac_code_016\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1490202451 source:c:\temp\aipac_code_016\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+	<fstream>
+
+1490202451 source:c:\temp\aipac_code_016\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1490202451 source:c:\temp\aipac_code_016\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1490202451 c:\temp\aipac_code_016\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1490202451 source:c:\temp\aipac_code_016\utilities\ctimer.cpp
+	"CTimer.h"
+
+1490202451 source:c:\temp\aipac_code_016\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1490202451 source:c:\temp\aipac_code_016\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1490202451 source:c:\temp\aipac_code_016\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1490202451 source:c:\temp\aipac_code_016\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1490202451 source:c:\temp\aipac_code_016\worldview.cpp
+	<string>
+	"WorldView.h"
+
+1490394208 source:c:\temp\aipac_code_016\neat\ccontroller.cpp
+	"CController.h"
+
+1490397009 source:c:\temp\aipac_code_016\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1490202452 e:\aipac_code_017\aipac_code_017\ibrain.h
+	"Enumerations.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\enumerations.h
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1490202452 e:\aipac_code_017\aipac_code_017\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\spritemodel.h
+	"Enumerations.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1490202452 e:\aipac_code_017\aipac_code_017\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490202452 e:\aipac_code_017\aipac_code_017\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\mapcontroller.cpp
+	"MapController.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\mapmodel.cpp
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\mapview.cpp
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\pmai.cpp
+	"WorldController.h"
+	"NEAT\CController.h"
+	"Utilities\CTimer.h"
+	"Utilities\ParameterMap.h"
+	"Brain_Keyboard.h"
+	<time.h>
+
+1490202452 e:\aipac_code_017\aipac_code_017\utilities\ctimer.h
+	<windows.h>
+
+1490202452 e:\aipac_code_017\aipac_code_017\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+	<fstream>
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\spriteview.cpp
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\worldmodel.cpp
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\worldview.cpp
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\utilities\ctimer.cpp
+	"CTimer.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1490542863 source:e:\aipac_code_017\aipac_code_017\neat\cga.cpp
+	"Cga.h"
+
+1490542973 e:\aipac_code_017\aipac_code_017\neat\cga.h
+	<vector>
+	<windows.h>
+	<fstream>
+	"phenotype.h"
+	"genotype.h"
+	"CSpecies.h"
+	"CParams.h"
+
+1490397032 e:\aipac_code_017\aipac_code_017\neat\phenotype.h
+
+1490536275 e:\aipac_code_017\aipac_code_017\neat\genotype.h
+
+1490202452 e:\aipac_code_017\aipac_code_017\neat\cspecies.h
+
+1490202452 e:\aipac_code_017\aipac_code_017\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\neat\cinnovation.cpp
+	"CInnovation.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\neat\cinnovation.h
+	<vector>
+	<algorithm>
+	<fstream>
+	<iomanip>
+	"utils.h"
+	"genotype.h"
+	"phenotype.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\neat\utils.h
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\neat\cspecies.cpp
+	"CSpecies.h"
+
+1490396872 source:e:\aipac_code_017\aipac_code_017\neat\genotype.cpp
+	"genotype.h"
+
+1490397010 source:e:\aipac_code_017\aipac_code_017\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+
+1490393764 e:\aipac_code_017\aipac_code_017\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1490202452 e:\aipac_code_017\aipac_code_017\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1490396896 source:e:\aipac_code_017\aipac_code_017\neat\phenotype.cpp
+	"phenotype.h"
+
+1490202452 source:e:\aipac_code_017\aipac_code_017\neat\utils.cpp
+
+1490393884 e:\aipac_code_017\aipac_code_017\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1490563544 source:e:\aipac_code_018\brain_keyboard.cpp
+	"Brain_Keyboard.h"
+	"Enumerations.h"
+
+1490563546 e:\aipac_code_018\brain_keyboard.h
+	"IBrain.h"
+	<windows.h>
+
+1490563547 e:\aipac_code_018\ibrain.h
+	"Enumerations.h"
+
+1490563547 e:\aipac_code_018\enumerations.h
+
+1490563546 source:e:\aipac_code_018\brain_randomghost.cpp
+	"Brain_RandomGhost.h"
+
+1490563547 e:\aipac_code_018\brain_randomghost.h
+	"IBrain.h"
+	<windows.h>
+	"SpriteController.h"
+	"WorldController.h"
+	<stdlib.h>
+	<time.h>
+
+1490563547 e:\aipac_code_018\spritecontroller.h
+	<string>
+	"SpriteModel.h"
+	"SpriteView.h"
+	"IBrain.h"
+
+1490563547 e:\aipac_code_018\spritemodel.h
+	"Enumerations.h"
+
+1490563547 e:\aipac_code_018\spriteview.h
+	<windows.h>
+	<vector>
+	<map>
+	<string>
+	"SpriteModel.h"
+
+1490563547 e:\aipac_code_018\worldcontroller.h
+	<windows.h>
+	<string>
+	"WorldModel.h"
+	"WorldView.h"
+	"MapController.h"
+	"SpriteController.h"
+	"Utilities\\ParameterMap.h"
+
+1490563547 e:\aipac_code_018\worldmodel.h
+	<windows.h>
+	"MapModel.h"
+	"SpriteModel.h"
+
+1490563547 e:\aipac_code_018\mapmodel.h
+	<windows.h>
+	<vector>
+	<string>
+
+1490563547 e:\aipac_code_018\worldview.h
+	<windows.h>
+	"WorldModel.h"
+
+1490563547 e:\aipac_code_018\mapcontroller.h
+	<windows.h>
+	"MapModel.h"
+	"MapView.h"
+
+1490563547 e:\aipac_code_018\mapview.h
+	<windows.h>
+	"Utilities\\ExceptionRKD.h"
+	"MapModel.h"
+
+1490563547 source:e:\aipac_code_018\mapcontroller.cpp
+	"MapController.h"
+
+1490563547 source:e:\aipac_code_018\mapmodel.cpp
+	"MapModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<fstream>
+
+1490563547 source:e:\aipac_code_018\mapview.cpp
+	"MapView.h"
+	"Utilities\\ExceptionRKD.h"
+	"Utilities\\BitmapLoader.h"
+
+1490563547 e:\aipac_code_018\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490563547 e:\aipac_code_018\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490563547 e:\aipac_code_018\utilities\\bitmaploader.h
+	<windows.h>
+	<string>
+
+1490563547 source:e:\aipac_code_018\neat\ccontroller.cpp
+	"CController.h"
+
+1490563547 e:\aipac_code_018\neat\ccontroller.h
+	<vector>
+	<sstream>
+	<string>
+	<windows.h>
+	"utils.h"
+	"CParams.h"
+	"Cga.h"
+	"PacNEATBrain.h"
+	"..\WorldController.h"
+	"..\\Utilities\\ParameterMap.h"
+
+1490563547 e:\aipac_code_018\neat\utils.h
+
+1490563547 e:\aipac_code_018\neat\cparams.h
+	<windows.h>
+	<fstream>
+	<string>
+	"..\\Utilities\\ParameterMap.h"
+
+1490563547 e:\aipac_code_018\neat\cga.h
+
+1490564330 e:\aipac_code_018\neat\pacneatbrain.h
+	"../IBrain.h"
+	"../WorldController.h"
+	"../Enumerations.h"
+	<windows.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	"phenotype.h"
+	"utils.h"
+	"CParams.h"
+	"collision.h"
+
+1490563547 source:e:\aipac_code_018\neat\cga.cpp
+
+1490563547 source:e:\aipac_code_018\neat\cinnovation.cpp
+
+1490585698 source:e:\aipac_code_018\neat\cparams.cpp
+	<sstream>
+	"CParams.h"
+
+1490563547 source:e:\aipac_code_018\neat\cspecies.cpp
+
+1490563547 source:e:\aipac_code_018\neat\genotype.cpp
+
+1490563547 e:\aipac_code_018\\utilities\\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490563547 e:\aipac_code_018\\utilities\\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490564368 e:\aipac_code_018\neat\phenotype.h
+	<vector>
+	<math.h>
+	<windows.h>
+	<algorithm>
+	"utils.h"
+	"CParams.h"
+	"genes.h"
+
+1490563547 e:\aipac_code_018\neat\genes.h
+
+1490563547 e:\aipac_code_018\neat\collision.h
+	"utils.h"
+	<math.h>
+
+1490564358 source:e:\aipac_code_018\neat\phenotype.cpp
+	"phenotype.h"
+
+1490563547 source:e:\aipac_code_018\neat\utils.cpp
+	"utils.h"
+	<math.h>
+
+1490563547 source:e:\aipac_code_018\pmai.cpp
+
+1490563547 source:e:\aipac_code_018\spritecontroller.cpp
+	"SpriteController.h"
+	<fstream>
+
+1490563547 source:e:\aipac_code_018\spritemodel.cpp
+	"SpriteModel.h"
+	"Utilities\\ExceptionRKD.h"
+	<stdlib.h>
+	<fstream>
+
+1490563547 source:e:\aipac_code_018\spriteview.cpp
+	"SpriteView.h"
+	"Utilities\\BitmapLoader.h"
+
+1490563547 source:e:\aipac_code_018\worldcontroller.cpp
+	"WorldController.h"
+	"WorldView.h"
+	"Brain_Keyboard.h"
+	"Brain_RandomGhost.h"
+
+1490563547 source:e:\aipac_code_018\worldmodel.cpp
+	"WorldModel.h"
+	"Utilities\\ExceptionRKD.h"
+
+1490563547 source:e:\aipac_code_018\worldview.cpp
+
+1490563547 source:e:\aipac_code_018\utilities\bitmaploader.cpp
+	"BitmapLoader.h"
+	"ExceptionRKD.h"
+
+1490563547 e:\aipac_code_018\utilities\bitmaploader.h
+	<windows.h>
+	<string>
+
+1490563547 e:\aipac_code_018\utilities\exceptionrkd.h
+	<ostream>
+	<string>
+
+1490563547 source:e:\aipac_code_018\utilities\ctimer.cpp
+	"CTimer.h"
+
+1490563547 e:\aipac_code_018\utilities\ctimer.h
+	<windows.h>
+
+1490563547 source:e:\aipac_code_018\utilities\exceptionrkd.cpp
+	"ExceptionRKD.h"
+
+1490563547 source:e:\aipac_code_018\utilities\parametermap.cpp
+	"ParameterMap.h"
+	<iostream>
+	<fstream>
+
+1490563547 e:\aipac_code_018\utilities\parametermap.h
+	<cctype>
+	<cstdlib>
+	<fstream>
+	<string>
+	<map>
+	"ExceptionRKD.h"
+
+1490621620 source:e:\aipac_code_018\neat\pacneatbrain.cpp
+	"PacNEATBrain.h"
+

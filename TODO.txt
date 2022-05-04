@@ -1,0 +1,66 @@
+Persistence and reconstitution of trained networks - a visualizer of a specifc network would be necessary.
+	* CGenome->CreatePhenotype return CNeuralNet*  PacNEATBrain->InsertNewBrain(CNeuralNet*) establishes a usable brain for the simulation.  CGenome has CreateFromFile() and Write() functions.
+
+Integrate ability to have co-evolving ghost(s)
+
+
+v0.1.6 updates - January 2011
+-----------------------------
+
+A major bug that I had shelved and forgotten was fixed:
+Occasionally (often) the program would hang and become non-responsive.  This was found to be due to the way the gate of the ghost cage was controlled.  With no ghosts or just one ghost, no problems, but with multiple ghosts the case in which ghosts were using the gate simultaneously led to the possibility that the gate would close while a ghost was part way through.  This appears to be fixed now.
+
+Code was added to the shutdown procedure to ensure the process was halted when any window was closed (using the window's X or close button).  This seemed to be more of a problem for Play mode.
+
+README (this file) was updated and expanded to better describe the intention and operation of the application.
+
+I found that more often than not, the score obtained during visualization did not match the score obtained during training.  In my efforts to fix this, I found that the NEAT code improperly used pre-increment operators.  In particular, this was done while parsing/updating vectors such that the first element in the vector was not processed.  I changed all instances of pre-increment operators in loops to post-increment operators, which fixed a few other oddities (number of bars in the species indicator bar not matching listed number of species, inconsistent outputs from neural nets, etc.).  The heart of the problem was found to be the way I was handling updates of PacMan's speed in WorldController::MovePacMan().  During training, the flag 'update' was always true but during visualization, it would be false 75% of the time.  I removed the dependency on this flag and allow the updates to always happen just as in training.  This seems to have solved the problem.  Much of the code I used for debugging consists of writing out log files.  I left this code in place for future reference should it be needed, but commented it out. 
+
+
+v0.1.5 updates
+--------------
+
+Vector-based inputs implemented.  Walls are input as a window.  Pellet inputs provide a distance and angle to each power pellet, ghost inputs provide distance, angle, and state (-1 = hunting, 1 = blue) to each ghost, dot inputs show distance and angle to the centroid of all remaining dots.  All vectors assume PacMan as the origin.
+
+EnforceIntersections was added to the control parameters.  If set to 1, PM will only make a directional change at an intersection.  If set to 0, PM can change direction at will.  There's a bit of a speed up with this as well as enforcing smooth paths.
+
+**Verify proper scoring for dots - the possible maximum score should be 284 dots * 10.  (Ghosts and Pellets seem to be OK.)**
+I found that at certain intersections mulitple dots are removed simultaneously due to a perceived overlap of the bounding box and dot tiles, but only one produced a score.  A modification was made to count how many dots are removed for any particular PacMan location and the score adjusted appropriately.  MapController::ModifyTileByPixel
+
+The visualization delay was linked to the parameters file.  Larger numbers cause the visualization to run more slowly so that it is easier to watch.  This does not affect the actual GA portion, just the visual of PacMan running through the maze.  The same delay is linked to the playable mode option.
+
+A user playable option is now available.  The parameter Mode can be set to Evolve to run an evolutionary simulation, or to Play for a Keyboard playable version.  Use the arrow keys to move PacMan around the maze.  All the other options remain the same.  
+
+**Fix the gate on the ghost cage - it doesn't redisplay and it may not be reset.**
+  A forced redraw of the entire maze was implemented any time the gate is opened or closed.  This does not appear to slow the process whatsoever and in fact I can force a redraw at every frame without any noticable performance losses.  This is a much easier fix than to implement specific drawing and erasing of the gate, or modification of the maze graphics.
+
+
+
+v0.1.4 Updates
+--------------
+
+A few bugs were fixed.  Specifically, some issues with whether PowerPellets and Ghosts were visible or not were addressed.  
+
+The ability to ignore walls or dots was added to the Windowed AI.  In the parameters file the following keywords control this as follows:
+
+DotWallSingleInput - If set to 1, the input will be -1 for a wall, 0 if empty, and 1 for a dot.  If set to 0, there will be two sets of inputs - one for dots one for walls.
+
+DotsWallsOnly - If set to 0, both dots and walls will be used for inputs.  If set to -1, only the walls will be seen.  If set to 1, only the dots will be seen.
+
+
+
+v0.1.3 UPDATES:
+---------------
+
+Windows now update during the evolution step thus preventing an freezing of the application during one epoch.  
+
+The console window now tells you whether PacMan will run or not after the current epoch and has (almost) instant feedback from pressing 'B'.
+
+Small optimizations to speed up the simulation.
+
+Ghosts now allowed to reevaluate their direction after PacMan eats PowerPellet.  Hopefully this will discourage chance collisions forcing PacMan to be more active in pursuit.
+
+When the console window was running a spontaneous crash would occur the seemed to stem from the Windows message queue.  A DoEvents() function was implemented to allow window events to be processed while the Console was active.  This seems to have solved the problem.
+
+
+

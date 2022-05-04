@@ -1,0 +1,193 @@
+#Parameter file for AIPac - Windows Version
+#Robert Kirk DeLisle
+#29 Jan 2008
+#I modified the structure to put the more interesting pieces at the top
+#and grouped them by function
+
+#Do you want to Play PacMan (user controlled) or Evolve PacMan AI?  [Play, Evolve]  
+Mode					Evolve
+
+#How many ghosts??
+NumberOfGhosts			4
+
+EnforceIntersections		1	#if 1, PacMan can only change directions at an intersection
+						#if 0, PacMan changes direction at will
+						#this parameter is ignored in Play mode
+
+#Optimize number of links?
+PenalizeLinks			1	#0 = no adjusment for links is made
+					#1 = fitness is equal to game score dived by number of links in NN
+
+#What type of AI do we want?
+#Global, Windowed, Vector, Console
+AIType				Console
+
+#Input settings for the Windowed AI type
+#also used for Vector AI type - see specific notes
+WindowRadius			4 	#How big is the window - how big of a radius can Pac see?  same for Vector
+SingleGhostInput		0 	#If set to 1, the input will be -1 if a hunting ghost is there, 0, if no ghost or dead, 1 if blue ghost
+					#if set to 0, there will be two inputs, one for hunting ghosts and one for blue ghosts
+					#not used for Vector
+PelletInputs			1  	#If set to 0, pellets will not be monitored; set to 1 they will be monitored.
+           				#same for vector
+DotWallSingleInput		0  	#If set to 1, the input will be -1 for a wall, 0 if empty, and 1 for a dot
+					#If set to 0, there will be two sets of inputs - one for dots one for walls
+					#not used for vector
+DotsWallsOnly			0  	#If set to 0, both dots and walls will be used for inputs
+					#If set to -1, only the walls will be seen
+					#If set to 1, only the dots will be seen
+					#These two (DotWallSingleInput and DotsWallOnly) work together for different types of inputs
+					#Same usage for vector
+
+#Input Selection for Global AI type - 1=on 0=off
+#Number of inputs are computed from these - maximum of 38 when all are turned on	
+#CheckForWalls gives 4 inputs, one for each direction around PacMan. The input is 1 if there is a wall there, 0 if PacMan can move that direction
+#CheckDots gives 4 inputs (1 for each direction around PacMan), each with the total number of dots on that side of PacMan's current position
+#MaxDotDirection gives 4 inputs, 1 of which will be set to 1 (others 0) corresponding to the direction in which most dots are present
+GhostXY				1	
+GhostState			1	
+PowerUpXY			1	
+PowerUpState			1
+PacManXY			1   
+CheckForWalls			1
+CheckDots			1
+MaxDotDirection			1
+
+#Input Selection for Console AI type  [AllLayers, Flatten]
+#this defines how inputs are combined
+#inputs are generated for the full 32x29 game board in layers
+#one layer for each of walls, dots, powerups, ghosts and pacman
+#AllLayers = leaves these separated and independent.  The result is 4640 inputs when ghosts are present, 3712 with no ghosts
+#Flatten = All layers are flattened into one 32x29 layer. 
+#Each input for a particular game board location is considered relative to how that might contribute to a better score:
+#walls = -1, dots = 1, powerups = 50, ghosts = -200 if in hunt mode and 200 if blue.  
+#The pacman layer is appened to this layer with pacman tiles = 1, for a total of 1856 inputs
+CompositeScheme			Flatten       
+
+#Scoring Parameters
+#Replicates is the number of times a Brain is run in order to assess the typical performance - used when ghosts are around
+#due to their random nature
+#ScoringMethod can be either Minimum, Average or Median - this is the method the score is determined from the replicates
+Replicates			5
+ScoringMethod			Minimum
+
+#various event timers
+#Fruit is not enabled yet, MaximumUpdates is the total number of updates allowed
+#Stall constants stop evaluation when PacMan is stuck in place or in a cycle with no increase in score
+FruitTimer			500
+GhostTimer			150
+PacManTimer			100
+PowerUpTimer			75
+MaximumUpdates			1000
+MaximumStall			100
+ScoreStall			100
+VisDelay			10  #this controls how fast the visualization updates.  Larger numbers run more slowly.
+
+#NEAT Parameters
+PopSize                      	150
+Bias                      	-1
+SigmoidResponse           	1
+NumAddLinkAttempts           	5
+NumTrysToFindLoopedLink      	5
+NumTrysToFindOldLink         	5
+YoungFitnessBonus         	1.3
+YoungBonusAgeThreshhold      	10
+SurvivalRate              	0.25
+NumGensAllowedNoImprovement  	50
+MaxPermittedNeurons          	5000
+ChanceAddLink             	0.10
+ChanceAddNode             	0.05
+ChanceAddRecurrentLink    	0.05
+MutationRate              	0.25
+MaxWeightPerturbation     	0.5
+ProbabilityWeightReplaced 	0.25
+ActivationMutationRate    	0.15
+MaxActivationPerturbation 	0.15
+CompatibilityThreshold    	0.26
+NumBest             		4
+OldAgeThreshold              	50
+OldAgePenalty             	0.7
+CrossoverRate             	0.7
+MaxNumberOfSpecies           	5
+
+
+#Number of outputs for PacMan is 4 - one for each cardinal direction
+#The output with the maximum value is followed
+#At this point, anything other than 4 will cause an error
+NumOutputs              	4
+
+
+#window specifications
+WindowWidth                   400  #this is the progress window
+WindowHeight                  400
+InfoWindowWidth               500  #this is where the NNs are plotted
+InfoWindowHeight              500
+
+#Maze resources
+MazeMap				Resources\\MazeMap.txt
+MazeBitmap			Resources\\Walls.bmp
+MazeBitmapTiles			18
+
+#Dot Resources
+DotMap				Resources\\DotMap.txt
+DotBitmap			Resources\\Dot.bmp
+DotBitmapTiles			1
+
+#PacMan Resources
+#Animation frames are not enabled yet
+PacManBitmap			Resources\\AIPac.bmp
+PacManBitmapTiles		15
+PacManBoundaryWrap		true
+PacManPositionX			216
+PacManPositionY			368
+PacManAnimationRight		0,1,2,1
+PacManAnimationLeft		6,7,8,7
+PacManAnimationUp		3,4,5,4
+PacManAnimationDown		9,10,11,10
+PacManAnimationDead		12,13,14,13
+
+#PowerPill Resources
+#Animation frames are not enabled yet
+PowerPillBitmap			Resources\\PowerPill.bmp
+PowerPillBitmapTiles		4
+PowerPillPosition1		16,48
+PowerPillPosition2		416,48
+PowerPillPosition3		16,352
+PowerPillPosition4		416,352
+PowerPillAnimation		0,1,2,3
+
+#Ghost Resources
+#Animation frames are not enabled yet
+GhostBitmap			Resources\\Ghosts.bmp
+GhostBitmapTiles		38
+GhostBoundaryWrap		true
+GhostPositionX			192
+GhostPositionY			224
+
+GhostAnimation_Red_Left		2,6
+GhostAnimation_Red_Right	0,4
+GhostAnimation_Red_Up		1,5
+GhostAnimation_Red_Down		3,7
+
+GhostAnimation_Yellow_Left	10,14
+GhostAnimation_Yellow_Right	8,12
+GhostAnimation_Yellow_Up	9,13
+GhostAnimation_Yellow_Down	11,15
+
+GhostAnimation_Green_Left	18,22
+GhostAnimation_Green_Right	16,20
+GhostAnimation_Green_Up		17,21
+GhostAnimation_Green_Down	19,23
+
+GhostAnimation_Purple_Left	26,30
+GhostAnimation_Purple_Right	24,28
+GhostAnimation_Purple_Up	25,29
+GhostAnimation_Purple_Down	27,31
+
+GhostAnimation_Blue		32,33
+GhostAnimation_Dead_Left	37
+GhostAnimation_Dead_Right	34
+GhostAnimation_Dead_Up		35
+GhostAnimation_Dead_Down	36
+
+
