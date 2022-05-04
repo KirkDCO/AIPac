@@ -1,5 +1,18 @@
 # AIPac
 
+This project was originally started in 2006, with the first code release 1 April 2007 on SourceForge (https://sourceforge.net/projects/aipac/).  It has gone through various revisions over the years and I'm hopeful to start working with again in the near(ish) future.
+
+Note that all the current code is written for Win32 and there are project files for the Code::Blocks C++ IDE.  
+
+I had multiple intnetions for the project:
+
+* write a working PacMan clonse, all from scratch (including game art)
+* work in C++ on a significant project
+* learn Win32 API
+* apply NEAT (Neuro-Evolution thorugh Augmenting Toplogies) to a game controller
+
+Following is a README that describes various aspects of the project.
+
 --------------
 Plain English:
 --------------
